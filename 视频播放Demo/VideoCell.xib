@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="256" id="KGk-i7-Jjw" customClass="VideoCell">
+            <rect key="frame" x="0.0" y="0.0" width="357" height="256"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="357" height="256"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="恋爱中的女生原来是这样子的" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzd-rM-GYX">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="BjP-gR-QAV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="机安检时大多会死哦啊地奇爱爱的" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9h-MD-LBf">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="OjN-Pr-ahd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lWe-cV-OXI"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Mm-1g-eta">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="pY6-64-7Mk"/>
+                            <constraint firstAttribute="height" constant="20" id="wpe-pS-StN"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6c-0n-rBW">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="T6c-aQ-veL"/>
+                            <constraint firstAttribute="width" constant="40" id="r2r-Tt-iId"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="playcount.png" translatesAutoresizingMaskIntoConstraints="NO" id="XVA-Kq-mSA">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="nO7-6N-vvv"/>
+                            <constraint firstAttribute="height" constant="20" id="p7a-Z4-riw"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRO-5b-4PI">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="qX8-zz-0CK"/>
+                            <constraint firstAttribute="width" constant="64" id="wUK-zf-jbn"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="video_play_btn_bg.png"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.2万" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ml-Lp-e4a">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="mYE-ek-6Nr"/>
+                            <constraint firstAttribute="width" constant="40" id="rQC-1a-8zh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="T9h-MD-LBf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="AVg-Xi-GHe"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="0Mm-1g-eta" secondAttribute="bottom" constant="8" id="Af1-J8-j8c"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="H6c-0n-rBW" secondAttribute="bottom" constant="8" id="BHZ-pL-DyZ"/>
+                    <constraint firstItem="XVA-Kq-mSA" firstAttribute="leading" secondItem="H6c-0n-rBW" secondAttribute="trailing" constant="18" id="Cxj-3n-HCg"/>
+                    <constraint firstItem="T9h-MD-LBf" firstAttribute="top" secondItem="Pzd-rM-GYX" secondAttribute="bottom" id="KCj-yx-CpP"/>
+                    <constraint firstItem="0Mm-1g-eta" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="MbS-3n-fD3"/>
+                    <constraint firstItem="0Mm-1g-eta" firstAttribute="top" secondItem="lWe-cV-OXI" secondAttribute="bottom" constant="8" id="OZQ-Kr-46Z"/>
+                    <constraint firstItem="H6c-0n-rBW" firstAttribute="leading" secondItem="0Mm-1g-eta" secondAttribute="trailing" constant="8" id="PdV-zu-6eh"/>
+                    <constraint firstItem="lWe-cV-OXI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Rn7-2p-Nrd"/>
+                    <constraint firstItem="2Ml-Lp-e4a" firstAttribute="leading" secondItem="XVA-Kq-mSA" secondAttribute="trailing" constant="8" id="UbH-1a-cQh"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="2Ml-Lp-e4a" secondAttribute="bottom" constant="8" id="UfL-Zd-WbH"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="T9h-MD-LBf" secondAttribute="trailing" constant="8" id="Wje-gI-TfD"/>
+                    <constraint firstItem="MRO-5b-4PI" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Ws2-mA-ULP"/>
+                    <constraint firstItem="lWe-cV-OXI" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="Ybu-fp-aTE"/>
+                    <constraint firstItem="Pzd-rM-GYX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="dyY-rt-bhk"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Pzd-rM-GYX" secondAttribute="trailing" constant="8" id="gf7-29-Vmy"/>
+                    <constraint firstItem="Pzd-rM-GYX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="ruq-DZ-vEo"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="XVA-Kq-mSA" secondAttribute="bottom" constant="8" id="u1E-5J-nCC"/>
+                    <constraint firstItem="MRO-5b-4PI" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="wD8-oA-fqd"/>
+                    <constraint firstItem="lWe-cV-OXI" firstAttribute="top" secondItem="T9h-MD-LBf" secondAttribute="bottom" constant="8" id="wdO-kU-ggF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgImageView" destination="lWe-cV-OXI" id="oGo-8F-mhr"/>
+                <outlet property="contentLabel" destination="T9h-MD-LBf" id="unp-On-Rd6"/>
+                <outlet property="playBtn" destination="MRO-5b-4PI" id="VPG-jY-57r"/>
+                <outlet property="suportLabel" destination="2Ml-Lp-e4a" id="E7y-Rq-cyS"/>
+                <outlet property="supportImage" destination="XVA-Kq-mSA" id="VkW-8b-YHB"/>
+                <outlet property="timeImage" destination="0Mm-1g-eta" id="Edf-Le-tFG"/>
+                <outlet property="timeLabel" destination="H6c-0n-rBW" id="sFe-yu-Csj"/>
+                <outlet property="titleLabel" destination="Pzd-rM-GYX" id="G5g-mi-KWO"/>
+            </connections>
+            <point key="canvasLocation" x="-82.5" y="33"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="playcount.png" width="64" height="64"/>
+        <image name="time.png" width="64" height="64"/>
+        <image name="video_play_btn_bg.png" width="64" height="64"/>
+    </resources>
+</document>
